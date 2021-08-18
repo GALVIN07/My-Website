@@ -1,0 +1,146 @@
+/*global */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0;
+}
+p{
+    font-size: 16px;
+    line-height: 2;
+    margin: 10px;
+    text-align: justify;
+}
+h1,h2,h3{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 40px;
+}
+/* utilities */
+.btn{
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: black;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 10px;
+    
+}
+.btn:hover{
+    color: rgb(12, 80, 80);
+    font-weight: 700;
+
+}
+.container{
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center-text{
+    text-align: center;
+}
+/*header */
+header.site-header{
+    height: 38vh;
+    background-color: rgb(12, 80, 80);
+    text-align: center;
+    margin-top: 61px;
+}
+header.site-header h1{
+    color: black;
+    font-size: 45px;
+    padding-top: 30px;
+    
+}
+header.site-header h2{
+    font-size: 35px;
+    margin-top: 30px;
+}
+header.site-header p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+main{
+    height: 400px;
+    background-color: white;
+}
+/*menu*/
+nav.menu{
+    background-color: black;
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    top: 0;
+    height: 20px;
+    width: 100vw;
+    overflow: hidden;
+}
+nav.menu a{
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+nav.menu a:hover{
+    color: rgb(12, 80, 80);
+    font-weight: 700;
+}
+/*menu*/
+
+/*About Me*/
+ul li{
+    list-style-type:none 
+}
+
+/*projects*/
+.project-container{
+    display: flex;
+}
+.project-container h5{
+    font-size: 40px;
+    margin: 20px auto 10px auto;
+    
+}
+.project-container ul li{
+    font-size: 20px;
+    font-weight: 300;
+}
+.project-container img{
+    width: 40vw;
+    margin: 20px 20px 10px auto;
+}
+.project-container a{
+    display: block;
+    width: 80px;
+    margin: 20px auto 10px auto;
+    padding: 10px;
+    background-color: rgb(39, 189, 9);
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.project-container a:hover{
+    font-weight: 700;
+
+}
+/*footer*/
+footer.site-footer{
+    border-top: 1px solid lightgrey;
+}
+footer.site-footer p{
+    text-align: center;
+    color: gray;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+/*footer*/
